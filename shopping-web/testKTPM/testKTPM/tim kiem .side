@@ -1,0 +1,976 @@
+{
+  "id": "f165128a-660d-4bce-b90c-442eab4b3a58",
+  "version": "2.0",
+  "name": "tim kiem ",
+  "url": "https://hasaki.vn",
+  "tests": [{
+    "id": "3cd9d0e5-ac9f-49f7-aa0c-90b09dcd84f8",
+    "name": "Tìm kiếm với giá trị mặc định ",
+    "commands": [{
+      "id": "d2ed74b0-8329-448e-b18f-396f3900073e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7e4eb0d-5423-46c6-973e-aa41fcee0c1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c56ece85-03e6-44ca-81d6-100f26d4074c",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1923dc4-840f-44b6-a0c4-7f0a0d81fdc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3feae06-ce0b-4cb6-91cd-3558dde63f3c",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "47f85760-0a6a-487f-b3ef-7995ccc9bf87",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "39ef3bb2-9aa5-468c-978c-b63ecd20d615",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34935d90-66a8-4fbd-8ffb-dcf54eb926e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search:nth-child(1)",
+      "targets": [
+        ["css=.fa-search:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5f973df-77a4-427c-8226-a6023c5e996f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item_menu_web:nth-child(6)",
+      "targets": [
+        ["css=.item_menu_web:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Clinic & Spa')]", "xpath:link"],
+        ["xpath=//section[@id='section_menu_site']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/spa.html')])[4]", "xpath:href"],
+        ["xpath=//section/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4633cb29-51f4-496c-8f2b-8a93da667adb",
+    "name": "Tìm kiếm với điều kiện sai kết quả",
+    "commands": [{
+      "id": "56b719b3-039a-49db-bc1b-21fddc9ea04d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75131f9c-3f9d-440a-a89f-637e77dcb005",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e31dcdf-4934-4b09-a584-3c1180ae245f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a2a6c1-58d1-4116-a8c6-ce930cac0447",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "206f865d-97cd-469d-afdc-cf2a7212c400",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "cfd21764-00ed-451a-8dd1-4e382249800c",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "9b9cecd3-e643-494b-aaef-f7d168fa1c41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93cad3f6-0324-4b01-824f-0ed20539ac89",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a273e7b-4e09-4697-90db-db7b0b3a7e1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": " TI VI TU LANH"
+    }, {
+      "id": "6a55cb18-5850-4f13-8f99-2c83f3514226",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search:nth-child(1)",
+      "targets": [
+        ["css=.fa-search:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0595426-6adc-4f51-83d3-af3f433f77d7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item_menu_web:nth-child(6)",
+      "targets": [
+        ["css=.item_menu_web:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Clinic & Spa')]", "xpath:link"],
+        ["xpath=//section[@id='section_menu_site']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/spa.html')])[4]", "xpath:href"],
+        ["xpath=//section/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "32e4c213-ddc5-4364-912f-0e324349ece6",
+    "name": "Tìm kiếm với kí tự space",
+    "commands": [{
+      "id": "0dcf2d16-b8d8-473b-bb13-d023b8dbd696",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c93ed28b-790e-4a5c-ba68-558c8a66f6cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff611b92-53fc-417b-8238-ef555ea863a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "127a0db5-aea4-48d8-9670-10668b7589a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fcaa550-f311-4b89-b340-e58ce44468ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "18ed4825-e223-4133-b4c7-8875f6bb77a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "044e4a13-2373-4170-8779-8cab49cd7bc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "772ee3fb-e10f-4a56-a9af-a0b24951700b",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb266a7e-5141-4ae5-809e-00c1fab53178",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "             "
+    }, {
+      "id": "7e78c2ed-c1ea-4fde-996f-c2bd7cd0ba60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search:nth-child(1)",
+      "targets": [
+        ["css=.fa-search:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5c9df91-63b7-43f7-a0db-c19c36acebf7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item_menu_web:nth-child(6)",
+      "targets": [
+        ["css=.item_menu_web:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Clinic & Spa')]", "xpath:link"],
+        ["xpath=//section[@id='section_menu_site']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/spa.html')])[4]", "xpath:href"],
+        ["xpath=//section/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bded7a62-8e7d-4ea5-8e5f-a3f7adaf8c5b",
+    "name": "Tìm kiếm có kí tự space ở đầu và cuối",
+    "commands": [{
+      "id": "c22d61c3-723e-4b62-a55e-43b845615c0f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6133e4d5-fbd9-45ce-b473-22d2536e903d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bd2e1c4-8317-41a6-b061-8694abc6755d",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a961c340-0044-4c36-8132-2a98b46af941",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c72d9e3f-b9f8-496a-8039-9402d2a1b515",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "2ff9967f-f82f-4b29-a23d-9910c2186fa3",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "b7be62b9-a130-4068-be48-376bc46ac814",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c09934-3842-497e-8d22-c71647c5a38f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55e459c2-41e8-4136-b48f-c5e7a8cba7d8",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": " sữa rửa mặt ABC    "
+    }, {
+      "id": "c936f40c-6168-4fd0-8d28-caf880bc30e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search:nth-child(1)",
+      "targets": [
+        ["css=.fa-search:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00a2be71-25f4-4f78-a7c3-02fcc7f6dad4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item_menu_web:nth-child(6)",
+      "targets": [
+        ["css=.item_menu_web:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Clinic & Spa')]", "xpath:link"],
+        ["xpath=//section[@id='section_menu_site']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/spa.html')])[4]", "xpath:href"],
+        ["xpath=//section/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "af82179a-84f6-4325-ade9-b32cd8d9b0c4",
+    "name": "Tìm kiếm với kí tự đặc biệt",
+    "commands": [{
+      "id": "d90cbf00-fa0e-48e8-92fd-b3b21ecd0aea",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "803ae2ac-e7de-466f-ac26-7c6781640d1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88c0f83b-4605-45da-9544-8026def96925",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3d90d35-60af-4146-b0f8-f63ae6583721",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6d50f03-9d8c-4aa1-b037-c3717be4f3c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "425de339-3fb9-426c-b789-4944197d9a8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "deec22e6-ce0a-4fb7-8c5a-b73ec098c030",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34a03cc5-ee51-4c4c-8a86-ccbdcc3303ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc90dacb-861b-4745-922b-21234fdb5946",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "%$%^$%^%$$#@$#@$#@"
+    }, {
+      "id": "b9454159-9890-4357-b959-934ebc4f0ca7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search:nth-child(1)",
+      "targets": [
+        ["css=.fa-search:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c9e5b26-63ed-464f-8f82-5023620ab6ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item_menu_web:nth-child(6)",
+      "targets": [
+        ["css=.item_menu_web:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Clinic & Spa')]", "xpath:link"],
+        ["xpath=//section[@id='section_menu_site']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/spa.html')])[4]", "xpath:href"],
+        ["xpath=//section/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bee0107c-428b-4a31-8435-655b0e01158a",
+    "name": "Tìm kiếm với xâu đã tồn tại",
+    "commands": [{
+      "id": "a61d9d9e-a2fe-4268-8f0e-ae36830ba766",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b16cdc5-1567-4f4f-aed5-97fac5c77dbf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "171abcd7-999d-44ee-b752-8573132f8159",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4177822-03ac-4f6d-b0ca-4ef22a542f68",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89f861b3-b3a1-4fd8-baf2-d80b38275426",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "191c8aba-8bd6-4937-9d43-aa350a13073e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "4f771231-a7a5-4d86-98d0-4982109124b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a49dcbfc-e316-4d33-a380-2b5a77d11c72",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6bc1899-422f-41c4-8fb3-ec3cdd915df0",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "suaruamat"
+    }, {
+      "id": "5b834928-1b96-4797-9231-f96148b39b40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search:nth-child(1)",
+      "targets": [
+        ["css=.fa-search:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c533ee4b-f12f-40f6-93b1-477278a80581",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item_menu_web:nth-child(6)",
+      "targets": [
+        ["css=.item_menu_web:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Clinic & Spa')]", "xpath:link"],
+        ["xpath=//section[@id='section_menu_site']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/spa.html')])[4]", "xpath:href"],
+        ["xpath=//section/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c9f3d586-bd9a-4c70-adb6-f0b85582ef93",
+    "name": "Tìm kiếm với xâu tiếng việt có dấu ",
+    "commands": [{
+      "id": "39543521-25b8-4ce3-8744-73e75194891b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a164393c-3761-4ed2-8add-c3ebf42b8949",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "159cee98-3827-4930-8401-4edec1c9d0b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02709a89-d5c5-4fbf-97ce-e746b309e992",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0533fff-fccc-4e1c-b256-cfe3a05853ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "fe4d3bf3-28c8-4af0-ba24-b5a0ed1b2a65",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "085bc49d-e8f3-4a41-bf0f-f7252fdf7e28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf56a6e8-bd7b-485c-86c4-8297aac0d684",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5861e7ef-3114-4cf1-baad-32680dff369e",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Sữarửamặt"
+    }, {
+      "id": "bb8c4b48-1c19-4873-ba88-c6a0d0280019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search:nth-child(1)",
+      "targets": [
+        ["css=.fa-search:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='search_mini_form']/div/div[2]/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f189b77b-5d38-4f2e-81ce-600db9b51f55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item_menu_web:nth-child(6)",
+      "targets": [
+        ["css=.item_menu_web:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Clinic & Spa')]", "xpath:link"],
+        ["xpath=//section[@id='section_menu_site']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/spa.html')])[4]", "xpath:href"],
+        ["xpath=//section/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9fefcbdf-66e6-4e27-ae3b-0f7635f6f837",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://hasaki.vn/"],
+  "plugins": []
+}

@@ -1,0 +1,1027 @@
+{
+  "id": "57227b53-b030-497c-8f05-1fa744920cbd",
+  "version": "2.0",
+  "name": "dang nhap",
+  "url": "https://hasaki.vn",
+  "tests": [{
+    "id": "61781309-533f-419a-8f8e-a2ee22f0d5ba",
+    "name": "Đăng nhập không có dữ liệu",
+    "commands": [{
+      "id": "2f98e37c-615d-45b7-94ab-b690301538c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b50570b-39a2-42f6-afa0-75e7e7e10652",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b60fa0c-94e3-433f-aea3-3a950f1c1e62",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "954c7bcf-870c-49a5-a184-439cb2d9ca0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8710e044-1d1b-40a1-b10f-57886a554ca0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "531dec4d-aacf-44ae-a7fe-f913b0deca2d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a86831f7-7c0b-4910-8d64-0135931e1ca7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "afa464f3-3bbe-4a03-8b64-00463289f043",
+    "name": "Đặng nhập sai email , sdt",
+    "commands": [{
+      "id": "af2511c3-35da-42b6-8e92-37de901030ee",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a32a522c-ba9e-494a-b2f9-00dd7305f0e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98049f87-a812-43ad-b870-e02fbb7379f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb783e31-5671-4f55-8f5f-3abf70554477",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728cbea3-1623-431b-bdd6-858d2393964d",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa2bef35-352d-4c91-88f9-ad95c22d0ce7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "dfdfdfdfksfkk@gmail.com"
+    }, {
+      "id": "22392269-e54d-430a-b7d4-68fefd279a5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "12345565"
+    }, {
+      "id": "5b4fb0a0-a8af-469e-855d-2533cf1dbcbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a209260f-699d-484e-ad8d-5f611dc8c186",
+    "name": "Đặng nhập sai mật khẩu",
+    "commands": [{
+      "id": "e6d59173-0b8f-40d4-b07a-17a29242ef19",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32155693-4cf7-4ba5-ba7e-053f56ef6e7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2092dbe2-ac7b-4cc8-85c0-587a5f6a9595",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cdf6245-6c4e-4581-b1c7-f0c62d973883",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bf2950d-4831-4a81-91fc-7fb9e72205c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "501bbb55-40ec-4af1-9913-ec58c0aa54fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "45f046f1-0c47-4b67-8f33-3674a72f444e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "12345565"
+    }, {
+      "id": "400a7583-94d7-416a-a55b-66c6cf2d6556",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "66b629c5-b283-4155-bc20-423aff6138d5",
+    "name": "Đặng nhập email có dấu cách cuối",
+    "commands": [{
+      "id": "ce9aed70-adea-4149-9c60-8997b7fc39cd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d85c2d3-e10b-448d-99d7-e0725929558a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80207e8d-8bae-4a7c-a429-48ab259bd3ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d383c6c-b66b-44dc-8144-022af4522fdb",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3b04da9-e1a7-4959-aa8f-80a884e63cf0",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3846d11-3435-4884-a817-11ae91568440",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com "
+    }, {
+      "id": "966f71fd-b967-4d98-831f-f6da6b415271",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "cae094a5-cd97-4407-85ac-46560ba32d8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9739b946-83a6-43d5-ad82-361b3295f19a",
+    "name": "Đặng nhập email toàn chữ in hoa",
+    "commands": [{
+      "id": "20f93d3c-dd01-4f4e-bcce-570c7cb2bb0a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f00c88f7-87da-412b-8c0d-06b5e28fed12",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87ed65be-557f-4eef-866b-4533595551ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fa9e4cd-8390-4a9e-9c2a-448bff4f1506",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4fbbd14-d624-4e43-b221-53ea1d7c93be",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6294f2e-4397-44b9-8d14-f24c92dfcc81",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "VVDAO096@GMAIL.COM"
+    }, {
+      "id": "6164e147-f9ca-4ad3-8edb-40ef68c2c39a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "DAOBN123456"
+    }, {
+      "id": "b98b2461-aa69-4803-a425-ae90dba882c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9e6f3612-eb01-4909-a107-18158d78a74a",
+    "name": "Đặng nhập không trường email",
+    "commands": [{
+      "id": "32ac158b-cd35-4e97-bc51-35d4ac3db0c1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caf55de0-e222-4bf0-be06-d3017dfcff62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a75b520-8294-4a77-b02d-90dc235ceb32",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5503118-8621-4ad3-b82c-2954521a98e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d339bc7-fcb4-4d95-ac45-3f533db77e64",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecfed7fb-577a-4a9f-b433-b8c70460a486",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fd72520-a7e5-4231-9d08-45864e7e4ff5",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "53cb42dc-2d43-4bb4-88aa-4302f59d67df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2ec3e8f9-755c-4bd8-bf0a-8afaff85ae94",
+    "name": "Đặng nhập không trường mật khẩu",
+    "commands": [{
+      "id": "f3ebc2de-4a8d-4d15-91f5-9f4900606330",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91b154ce-1404-4f95-8d67-8c2ad60d7649",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d27d3e8-3f67-4288-9404-947ecff1ac3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c97f8bf-1408-464c-81c6-d043dd555ff7",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "631873d2-1b2f-40a1-9c91-65e9f60a4c9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2170439-bb7d-46cb-96da-7ec6866df392",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "0eda10d2-226f-4978-9403-8216deab8e98",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2bad998-e073-4171-b503-fe0f47c0760c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6fdd6ce1-02e2-483a-9274-9d92fd4f2fd4",
+    "name": "Đặng nhập thành công",
+    "commands": [{
+      "id": "4d8fc1b3-b7c6-4aca-b5b9-d8b7b945e31f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5fd5252-04a1-4603-b9c5-885e3e240cab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce104296-7485-405d-871e-87ab9db80fb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f6ecf88-f225-47de-9442-c0cf2a22fb55",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b68ad9bb-a371-48b6-bd26-8a8cd8a983a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4c1b8b2-5314-4d10-8390-a69b94a9e3f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096@gmail.com"
+    }, {
+      "id": "3cd34790-e060-48b0-b6cc-e37760d936b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "f286e75c-38b2-481d-80fe-b3fd0c35386a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a439b82f-6b7e-4cd2-bca7-e3861eff2cf0",
+    "name": "Đặng nhập email không có @",
+    "commands": [{
+      "id": "bcf49fc0-ac77-4528-b078-f3e684133863",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb137d02-b781-49df-a2db-51e4e40e3619",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5855d5d3-5bd2-4fea-8455-ac9a8d582dde",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6415c7f2-50c1-453c-905f-b47b4ab1e172",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c0baa57-adde-432a-b325-06354e29aefa",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36dff488-cdc4-4c37-a68c-5d408f403f20",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vvdao096gmail.com"
+    }, {
+      "id": "851eb608-f21e-4ca8-9aa3-d9bc9ec77e13",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "eb9ae2cd-126c-497c-9649-b2fb1d39cab5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d5779299-9ddb-4c9b-9a4c-b361b64c8707",
+    "name": "Đặng nhập email có kí tự đậc biệt",
+    "commands": [{
+      "id": "9f9ecda0-f14d-4b67-b8d6-8c2e0db1be61",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0af4e30e-44b5-4b8c-94eb-8a442d72c59f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1548x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1811d3c2-a7a9-43a1-b0a5-547df63d7070",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [
+        ["id=btn-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#btn-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='btn-login']", "xpath:attributes"],
+        ["xpath=//header[@id='wrapper_header']/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#popup-login')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "206a5039-129d-4797-9164-baf714f6dfeb",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8717f6c-695a-46f5-ae9e-5da3fb0fc421",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7583eff-b457-44d2-8efb-b45472374998",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "$^&$%^&$%^&"
+    }, {
+      "id": "34770a11-ae62-4fd0-b8c1-1d9a6ae88cd8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-head-login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "daobn123456"
+    }, {
+      "id": "a7e5a911-ab96-4522-9940-cc2384dd8a79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='form-head-login']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "157a90f1-a7c4-45d0-b31c-774f1f8e72a6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["61781309-533f-419a-8f8e-a2ee22f0d5ba"]
+  }],
+  "urls": ["https://hasaki.vn/"],
+  "plugins": []
+}
